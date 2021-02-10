@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-show_debug_message("hello world!");
+show_debug_message("This will cause a conflict lol");
 
 #region weas de movimiento
 maxSpd = 2.5//2.1;
