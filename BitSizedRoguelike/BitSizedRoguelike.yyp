@@ -4,7 +4,7 @@
     {"id":{"name":"rTest","path":"rooms/rTest/rTest.yy",},"order":2,},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},"order":0,},
     {"id":{"name":"r0","path":"rooms/r0/r0.yy",},"order":3,},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":15,},
+    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":15,},
     {"id":{"name":"sWallPlain","path":"sprites/sWallPlain/sWallPlain.yy",},"order":0,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":0,},
   ],
