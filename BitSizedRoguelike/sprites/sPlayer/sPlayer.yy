@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"15817f9b-02bf-4dab-9721-bcd254831943","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "BitSizedRoguelike",
-    "path": "BitSizedRoguelike.yyp",
+    "name": "Player",
+    "path": "folders/Sprites/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlayer",
