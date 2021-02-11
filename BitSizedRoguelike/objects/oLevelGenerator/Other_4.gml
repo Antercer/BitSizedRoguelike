@@ -30,15 +30,15 @@ if room == rRooms {
 #region rGame
 
 else if room == rGame {
-	var size = 4;
-	for (var i = 0; i < size; i++){
-		var xStart = i * global.roomWidth;
-		var selectedRoom = rooms[irandom(nRooms-1)];
-		for (var ii = 0; ii < ds_list_size(selectedRoom); ii++){
-			var a = selectedRoom[|ii];
-			var layId = layer_get_id("Instances");
+	var size, i, xStart, selectedRoom, ii, a, layId;
+	size = 4;
+	for (i = 0; i < size; i++){
+		xStart = i * global.roomWidth;
+		selectedRoom = rooms[irandom(nRooms-1)];
+		for (ii = 0; ii < ds_list_size(selectedRoom); ii++){
+			a = selectedRoom[|ii];
+			layId = layer_get_id("Instances");
 			instance_create_layer(a.objectX+xStart, a.objectY, layId, a.objectType);
-			//draw_text(a.objectX, a.objectY, object_get_name(a.objectType));
 		}
 	}
 }
