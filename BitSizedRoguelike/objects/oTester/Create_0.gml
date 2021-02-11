@@ -12,7 +12,7 @@ function roomElement(object_type, object_x, object_y) constructor {
 #endregion
 
 room_goto(rRooms);
-rooms[0] = 0;
 actualRoom = 0;
+nRooms = 5;
 global.roomWidth = 320;
 global.roomHeight = 224;
