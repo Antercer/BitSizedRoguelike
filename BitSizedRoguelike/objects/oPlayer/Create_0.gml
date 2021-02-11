@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-show_debug_message("lalalala");
-
 #region weas de movimiento
 maxSpd = 2.5//2.1;
 jumpSpd = 4.4;
