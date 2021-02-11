@@ -4,7 +4,8 @@
     {"id":{"name":"rTest","path":"rooms/rTest/rTest.yy",},"order":2,},
     {"id":{"name":"r1","path":"rooms/r1/r1.yy",},"order":0,},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},"order":0,},
-    {"id":{"name":"r0","path":"rooms/r0/r0.yy",},"order":3,},
+    {"id":{"name":"r0","path":"rooms/r0/r0.yy",},"order":2,},
+    {"id":{"name":"r2","path":"rooms/r2/r2.yy",},"order":1,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"sWallPlain","path":"sprites/sWallPlain/sWallPlain.yy",},"order":0,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":0,},
@@ -27,6 +28,7 @@
     {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
     {"roomId":{"name":"r0","path":"rooms/r0/r0.yy",},},
     {"roomId":{"name":"r1","path":"rooms/r1/r1.yy",},},
+    {"roomId":{"name":"r2","path":"rooms/r2/r2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
