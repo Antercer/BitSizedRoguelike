@@ -5,7 +5,7 @@
 
 if room == rRooms {
 	for (var lal = 0; lal < nRooms; lal++) {
-		rooms[lal] = ds_list_create(); 
+		rooms[lal] = ds_list_create();
 	}
 	var layerId, elements, element, oi, xx, yy, xStart, yStart, n, re;
 	layerId = layer_get_id("Instances");
@@ -32,12 +32,12 @@ if room == rRooms {
 else if room == rGame {
 	var size, i, xStart, selectedRoom, ii, a, layId;
 	size = 4;
+	layId = layer_get_id("Instances");
 	for (i = 0; i < size; i++){
 		xStart = i * global.roomWidth;
 		selectedRoom = rooms[irandom(nRooms-1)];
 		for (ii = 0; ii < ds_list_size(selectedRoom); ii++){
 			a = selectedRoom[|ii];
-			layId = layer_get_id("Instances");
 			instance_create_layer(a.objectX+xStart, a.objectY, layId, a.objectType);
 		}
 	}

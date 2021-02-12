@@ -95,13 +95,3 @@ if place_meeting(x, (y + vspd + 1), oWall){
 
 y += vspd;
 #endregion
-
-
-#region camera stuff (change later)
-
-//view_xport[0] = x - (global.roomWidth/2); 
-//view_yport[0] = 0;
-view_xport[0] = floor(view_xport[0]);
-view_yport[0] = floor(view_yport[0]);
-
-#endregion

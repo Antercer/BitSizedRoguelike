@@ -11,11 +11,10 @@ function roomElement(object_type, object_x, object_y) constructor {
 
 #endregion
 
-room_goto(rRooms);
 //actualRoom = 0;
 
 //falta hacer que esto se actualice automáticamente owo
-nRooms = 8;
+nRooms = 9;
 
 global.roomWidth = 320;
 global.roomHeight = 224;
